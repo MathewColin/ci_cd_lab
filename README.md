@@ -24,6 +24,7 @@ kubectl get secret argocd-initial-admin-secret -n argocd   -o jsonpath="{.data.p
 argocd login localhost:8080 --username admin --password <password>
 ```
 
+
 Then add the git repo to Argo CD:
 ```bash
 export USERNAME=<your-github-repository>
